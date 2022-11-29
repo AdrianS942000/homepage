@@ -1,0 +1,12 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  ::after ::before {
+    box-sizing: inherit; }
+    
+.sport {
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+}

@@ -1,0 +1,33 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after ::before {
+  box-sizing: inherit;
+}
+
+.navigation {
+  margin: 10px 10px 10px 10px;
+}
+
+.navigation--blue {
+  background: rgba(189, 243, 250, 0.363);
+}
+
+
+.navigation__list {
+  font-size: 20px;
+  list-style-type: none;
+}
+.navigation--blue .navigation__link {
+  color: rgba(15, 17, 189, 0.781);
+}
+
+.navigation__listItem {
+  margin: 5px;
+}
+
+.navigation__link {
+  text-decoration: none;
+}

@@ -1,0 +1,27 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after ::before {
+  box-sizing: inherit;
+}
+
+.body {
+  text-align: center;
+  overflow-x: auto;
+  max-width: 600px;
+  color: rgb(5, 5, 5);
+  background-color: rgba(164, 201, 223, 0.253);
+  margin: Auto
+}
+.body__section {
+  margin-top: 20px;
+}
+.dark {
+  font-family: 'Rubik', sans-serif;
+  background-color: #000000;
+  color: white;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto }
