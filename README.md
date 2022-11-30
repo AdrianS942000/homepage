@@ -3,7 +3,7 @@
 ## Demo 
 
 
-https://github.com/AdrianS942000/homepage.git
+https://adrians942000.github.io/homepage/
 
 
 
