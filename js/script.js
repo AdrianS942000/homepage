@@ -1,11 +1,23 @@
-console.log("Cześć, witam w BEM-4!");
+{
+    const welcome = () => {
+        console.log("Cześć!");
+    }
 
-let button = document.querySelector(".button-js")
-let body = document.querySelector(".body-js")
-let themeName = document.querySelector(".themeName")
+    const toggleBackground = () => {
+        const body = document.querySelector(".body-js")
+        const themeName = document.querySelector(".themeName")
 
-button.addEventListener("click", () => {
-    body.classList.toggle("dark")
+        body.classList.toggle("dark")
+        themeName.innerText = body.classList.contains("dark") ? "jasny" : "ciemny"
+    };
 
-    themeName.innerText = body.classList.contains("dark") ? "jasny" : "ciemny"
-})
+    const init = () => {
+        const button = document.querySelector(".button-js")
+
+        button.addEventListener("click", toggleBackground);
+
+        welcome();
+    };
+
+    init();
+}
