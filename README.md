@@ -1,4 +1,4 @@
-# Adrian Surowiec-  moje strona
+# Adrian Surowiec-  Moja storna 
 
 ![Adrian](images/AdrianS.jpg)
 
