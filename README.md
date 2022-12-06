@@ -7,4 +7,5 @@ https://adrians942000.github.io/homepage/
 
 
 
-##Opis
+## Strona zawiera krótki opis mojego miasta. 
+Więcej informacji znajdziesz : https://pl.wikipedia.org/wiki/Rzesz%C3%B3w
